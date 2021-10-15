@@ -1,0 +1,22 @@
+{
+  "name": "weather_app",
+  "version": "1.0.0",
+  "description": "weather app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "app",
+    "node"
+  ],
+  "author": "Bryan Silva <bryan_silva_ec@outlook.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "colors": "^1.4.0",
+    "dotenv": "^10.0.0",
+    "inquirer": "^8.1.5"
+  }
+}
